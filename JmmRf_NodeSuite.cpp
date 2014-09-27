@@ -1,3 +1,4 @@
+#ifdef ARDUINO_ARCH_SAM
 /*
  * JmmRf_NodeSuite.cpp
  *
@@ -43,3 +44,4 @@ void loop(){
 
 
 
+#endif /* ARDUINO_ARCH_SAM */

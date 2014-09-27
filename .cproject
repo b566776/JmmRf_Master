@@ -19,16 +19,18 @@
 							<builder buildPath="${workspace_loc:/JmmRf_Master}/Release" id="it.baeyens.arduino.sketch.builder.2092064360" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Arduino sketch builder" superClass="it.baeyens.arduino.sketch.builder"/>
 							<tool id="it.baeyens.arduino.tool.sketch.compiler.cpp.1867062502" name="Arduino C++ Compiler" superClass="it.baeyens.arduino.tool.sketch.compiler.cpp">
 								<option id="it.baeyens.arduino.compiler.cpp.sketch.option.incpath.1137024428" name="Include Paths (-I)" superClass="it.baeyens.arduino.compiler.cpp.sketch.option.incpath" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;D:\Developer\Arduino\hardware\arduino\avr\cores\arduino&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:\Developer\Arduino\hardware\tools\avr\avr\include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/JmmRf_Master/arduino/variant}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/JmmRf_Master/Libraries/JmmRF}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/JmmRf_Master/Libraries/StackArray}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/JmmRf_Master/Libraries/Ethernet}&quot;"/>
 								</option>
 								<inputType id="it.baeyens.arduino.compiler.cpp.sketch.input.303552612" name="CPP source files" superClass="it.baeyens.arduino.compiler.cpp.sketch.input"/>
 							</tool>
 							<tool id="it.baeyens.arduino.tool.compiler.c.1284000160" name="Arduino C Compiler" superClass="it.baeyens.arduino.tool.compiler.c">
-								<option id="it.baeyens.arduino.compiler.c.sketch.option.incpath.369430180" name="Include Paths (-I)" superClass="it.baeyens.arduino.compiler.c.sketch.option.incpath"/>
+								<option id="it.baeyens.arduino.compiler.c.sketch.option.incpath.369430180" name="Include Paths (-I)" superClass="it.baeyens.arduino.compiler.c.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/JmmRf_Master/Libraries/JmmRF}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/JmmRf_Master/Libraries/StackArray}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/JmmRf_Master/Libraries/Ethernet}&quot;"/>
+								</option>
 								<inputType id="it.baeyens.arduino.compiler.c.sketch.input.1972013465" name="C Source Files" superClass="it.baeyens.arduino.compiler.c.sketch.input"/>
 							</tool>
 							<tool id="it.baeyens.arduino.tool.ar.1760355619" name="Arduino archiver" superClass="it.baeyens.arduino.tool.ar"/>

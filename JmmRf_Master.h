@@ -1,3 +1,4 @@
+#ifdef ARDUINO_ARCH_SAM
 // Only modify this file to include
 // - function definitions (prototypes)
 // - include files
@@ -27,3 +28,4 @@ void setup();
 
 //Do not add code below this line
 #endif /* _JmmRf_Master_H_ */
+#endif /* ARDUINO_ARCH_SAM */

@@ -27,24 +27,19 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>Libraries/Ethernet</name>
+			<type>2</type>
+			<locationURI>ArduinoLibPath/Ethernet</locationURI>
+		</link>
+		<link>
 			<name>Libraries/JmmRF</name>
 			<type>2</type>
-			<locationURI>ArduinoLibPath/JmmRF</locationURI>
+			<locationURI>ArduinoPivateLibPath/JmmRF</locationURI>
 		</link>
 		<link>
 			<name>Libraries/StackArray</name>
 			<type>2</type>
-			<locationURI>ArduinoLibPath/StackArray</locationURI>
-		</link>
-		<link>
-			<name>arduino/core</name>
-			<type>2</type>
-			<locationURI>ArduinoPlatformPath/cores/arduino</locationURI>
-		</link>
-		<link>
-			<name>arduino/variant</name>
-			<type>2</type>
-			<locationURI>ArduinoPinPath/eightanaloginputs</locationURI>
+			<locationURI>ArduinoPivateLibPath/StackArray</locationURI>
 		</link>
 	</linkedResources>
 	<variableList>

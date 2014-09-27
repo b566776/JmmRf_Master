@@ -1,3 +1,4 @@
+#ifdef ARDUINO_ARCH_SAM
 /*
  * teste.cpp
  *
@@ -174,3 +175,4 @@ void loop(){
         break;
   }
 }
+#endif /* ARDUINO_ARCH_SAM */
